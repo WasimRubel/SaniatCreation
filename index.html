@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>saniat</title>
+		<link href="start.css" rel="stylesheet" type="text/css"/>
+		<link href="css/nivo-slider.css" rel="stylesheet" type="text/css"/>
+		<link href="themes/bar/bar.css" rel="stylesheet" type="text/css"/>
+		<link href="themes/dark/dark.css" rel="stylesheet" type="text/css"/>
+		<link href="themes/default/default.css" rel="stylesheet" type="text/css"/>
+		<link href="themes/light/light.css" rel="stylesheet" type="text/css"/>
+		
+	</head>
+	<body>
+		<div class="full">
+			<div class="header">
+			<a href="http://bangladesh.com" target="_blank"><img src="photo/logo.jpg"></a>
+			</div>
+			<div id="sticker">
+				<div class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="photo.html" target="_blank">Photo</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Travel</a>
+							<ul>
+								<li><a href="#">Cox's Bazar</a></li>
+								<li><a href="#">Rangamati</a></li>
+								<li><a href="#">Sent Martin</a></li>
+								<li><a href="#">Bandarbon</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			<div class="ber">
+				<form method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+					<input type="hidden" name="sitesearch" value="">
+					<input placeholder=Google type="text" name="as_q" size="20" value="">
+					<input type="submit" value="Search" title="Search">
+				</form>
+			</div>
+			</div>
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider">
+						<img src="photo/A.jpg" alt=""/>
+						<img src="photo/B.jpg" alt=""/>
+						<img src="photo/water lilycc.jpg" alt=""/>
+						<img src="photo/D.jpg" alt=""/>
+						<img src="photo/c.jpg" alt=""/>
+					</div>
+				</div>
+			<div class="main_contain">
+				<div class="contain">
+					<h2>Beautiful Bangladesh</h2>
+					<p align="justify">Tourism in Bangladesh is a developing foreign currency earner. The country was listed by Lonely Planet in 2011 as the "best value destination".Bangladesh's tourist attractions include, historical and monuments, resorts, beaches, picnic spots, forests and tribal people, wildlife of various species. Bangladesh offers ample opportunities to tourists for angling, water skiing, river cruising, hiking, rowing, yachting, sea bathing as well as bringing one in close touch with pristine nature.In the northern part, comprising the Rajshahi division, there are archaeological sites, including the temple city Puthia in Rajshahi; the largest and most ancient archaeological site, Mahasthangarh in Bogra; the single largest Buddhist monastery, Paharpur in Naogaon; the most ornamental terracota Hindu temple in Bangladesh Kantaji Temple, and many rajbaris or palaces of old zamindars.In the south-eastern part, which is the Chittagong division, there are natural and hilly areas like Chittagong Hill Tracts, along with sandy sea beaches. The most notable beach, in Cox's Bazar, is a contender for the title of longest unbroken sandy sea beach in the world.Cox's Bazar is the longest natural unbroken sea beach in the world.In the south-western part, mainly the Khulna Division, there is the Sundarbans, the largest mangrove forest of the world with Royal Bengal Tiger and spotted deer. The historically and architecturally important sixty domed mosque in Bagerhat is a notable site. In the north-eastern part, Sylhet division, there is a green carpet of tea plants on small hillocks. Natural reserved forests are great attractions. Migratory birds in winter, particularly in the haor areas, are also very attractive in this area.Ministry of Tourism and The Civil Aviation Ministry designs national policies for the development and promotion of tourism. The Ministry also maintains the Beautiful Bangladesh campaign.</p>
+				</div>
+				<div class="sidebar">
+					<h2>Land Of Story</h2>
+					<ul>
+						<li><a href="#">Dhaka</a></li>
+						<li><a href="#">Rajshahi</a></li>
+						<li><a href="#">Sylhet</a></li>
+						<li><a href="#">Chittagong</a></li>
+						<li><a href="#">Borishal</a></li>
+						<li><a href="#">Khulna</a></li>
+						<li><a href="#">Rongpur</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<p>&copy; 5mad'S, All rights reserved</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="java/jquery-1.9.0.min.js"></script>
+				<script type="text/javascript" src="java/jquery.nivo.slider.js"></script>
+				<script type="text/javascript">
+					$(window).load(function() {
+					$('#slider').nivoSlider();
+					});
+				</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			var s = $("#sticker");
+			var pos = s.position();					   
+			$(window).scroll(function() {
+			var windowpos = $(window).scrollTop();
+			if (windowpos >= pos.top) {
+			s.addClass("stick");
+			} else {
+			s.removeClass("stick");	
+		}
+	});
+});
+</script>
+	</body>
+</html>

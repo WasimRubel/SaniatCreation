@@ -1,0 +1,45 @@
+*{margin:0px;padding:0px;}
+body{font-family:Arial;font-size:16px;background-image:url(photo/congruent_pentagon.png);}
+.full{width:960px;margin:25px auto;display:block;overflow:hidden;background-color:#E9EAED;}
+.header{width:960px;}
+.header h2{font-size:70px;text-align:center;color:#144D16;background:#B1F6CB;}
+.header img{width:960px;height:150px;}
+.menu{background:#C6D248;width:960px;min-height:50px;}}
+.menu ul{margin:0;padding:0;list-style:none;}
+.menu ul li{float:left;border-right:1px solid #a7b13b;border-left:1px solid #e0ee4f;position:relative;list-style:none;}
+.menu ul li:first-child{border-left:0px solid #F6F5F5;}
+.menu ul li:last-child{border-right:0px solid #F6F5F5;}
+.menu ul li a{display:block;padding:15px;text-decoration:none;background:#C6D248;}
+.menu ul li a:hover{background:#FFFFFF;}
+.ber{width:234px;height:50px;margin:-42px 0 -4px 716px;}
+.ber input{padding:5px;}
+.slider{margin-bottom:25px;}
+.main_contain{width:960px;overflow:hidden;margin-bottom:25px;}
+.contain{width:610px;float:left;}
+.contain h2{background:#56D1FB;text-align:center;margin-bottom:5px;color:#FFFFFF;font-weight:bold;}
+.contain p{margin-left:5px;}
+.sidebar{width:300px;float:right;margin-left:20px;}
+.sidebar h2{margin-bottom:5px;background:#DB7834;text-align:center;font-weight:bold;color:#FFFFFF;}
+.sidebar ul{list-style:none;background:#69A140;}
+.sidebar ul li{border-bottom:2px solid #FFFFFF;}
+.sidebar ul li a{text-decoration:none;display:block;padding:10px;color:#111212;text-align:center;}
+.sidebar ul li a:hover{background:#FFFFFF;}
+.footer{}
+.footer p{background-color:#111212;color:#FFFFFF;font-weight:bold;text-align:center;}
+
+/*This is for dropdown menu*/
+.menu ul li ul{position:absolute;left:-999999px;z-index:100000000;}
+.menu ul li:hover ul{left:0px;}
+.menu ul li ul li{float:none;border-top:1px solid #e0ee4f;border-bottom:1px solid #a7b13b;width:173px;border-left:0px solid;border-right:0px solid;}
+.menu ul li ul li:last-child{border-bottom:0px solid #e0ee4f;}
+.menu ul li ul li a{background:#C6D248;display:block;padding:15 45px;text-decoration:none;color:#B67042;}
+.menu ul li ul li a:hover{background:#E6E3E4;}
+/*stack menu*/
+div#sticker {
+	
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:99999999;
+}
