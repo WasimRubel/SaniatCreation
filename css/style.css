@@ -1,0 +1,33 @@
+h2{color:#F90508;font-size:42px;text-align:center;letter-spacing:10px;background-color:#AAE300;font-family: 'Lobster', cursive;text-shadow:5px 5px 5px #FFFFFF;}
+p{color:#000000;font-size: 18px;font-weight: bold;text-align:justify;line-height:25px;word-spacing:5px;letter-spacing:0px;background-image:url(photo/Autum-Fall-Background.jpg);padding:30px 50px;font-family: 'Poiret One', cursive;}
+img{width:400px; height:250px;margin: 25px -15px 50px 16px;}
+iframe{margin:-85px 0px 0px 15px;width:520px;height:315px;;}
+table{margin:-6px 0px -26px 631px;}
+marquee{font-size:30px;font-weight:bold;text-shadow:5px 5px 5px #67666B;}
+marquee a{text-decoration:none;color:#176CEE;}
+table{width:600px; border:2px; border-collapse:separate;}
+table, th, td{border:1px outset red;}
+tr{text-align:center;}
+th{background-color:#F2C287;color:#000000;}
+h3{color:#E00100;background-color:#F8CA72;width:300px;margin:-112px 0px 0px 780px;font-weight: bold;font-size:60px;box-shadow:7px 6px 7px 5px #EC9B91;transform:rotate(-10deg);-webkit-transform:rotate(-10deg);}
+button{margin:67px 0px 60px 15px;width:90px;height:45px;background-color:#5096CA;color:#FFFFFF;font-weight:bold;border-radius:12px 12px 12px 12px;}
+button {text-decoration:none;color:#FFFFFF;}
+body{background-image:url(photo/background-wallpapers-7.jpg)}
+//<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider">
+				<img src="photo/nemo.jpg" alt="" title="#nim"/>
+				<img src="photo/toystory.jpg" alt=""/>
+				<img src="photo/up.jpg" alt=""/>
+				<a href="http://google.com"><img src="photo/walle.jpg" alt=""/></a>
+			</div>
+			<div id="nim" class="nivo-html-caption">
+				This is a nimo <a href="http://google.com">Click</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="java/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="java/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
